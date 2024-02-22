@@ -15,7 +15,7 @@ That's why I will go for start schema, where queries are easier to write and run
 
 [Link to the DB schema creation script](./sql/create_schema.sql)
 
-### ETL
+### ETL &ast;
 
 [Link to ETL script](./scripts/load_data.py)
 
@@ -26,3 +26,5 @@ and then load it into respective dimension tables.
 - Create a merged DataFrame 
 by adding foreign keys from dimension tables to the original data.
 - Load the merged DataFrame into the fact table.
+
+&ast; Data was already cleaned during previous capstone project. So I skipped this step.
