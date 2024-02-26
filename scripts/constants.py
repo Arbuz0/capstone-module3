@@ -1,6 +1,7 @@
 # Data storages
 CONN_STRING_NAME = 'DB_CONNECTION_STRING'
 SOURCE_FILE = '../data/processed_capstone_data.csv'
+ORIGINAL_FILE = '../data/ad_table.csv'
 
 # Table names
 DIM_MAKER = 'dim_maker'
@@ -11,6 +12,7 @@ DIM_COLOR = 'dim_color'
 DIM_MODEL = 'dim_model'
 DIM_DATE = 'dim_date'
 FACT_CAR_ADV = 'fact_car_adv'
+AD_TABLE = 'ad_table'
 
 # Column names
 COL_ADV_ID = 'adv_id'
